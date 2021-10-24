@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Demo</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Demo project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap-4.1.2/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+</head>
+<body>
+
+<div class="super_container">
+	<!-- <div class="home d-flex flex-column align-items-center justify-content-center">
+		<div>
+			<div>
+				<label for="input_hit">Your Hit</label>
+				<input type="text" id="input_hit" value="6">
+			</div>
+			<div>
+				<label for="wskill">Weapon Skill</label>
+				<input type="text" id="wskill" value="300">
+			</div>
+			<div>
+				<label for="dw">Dual Wield</label>
+				<input type="checkbox" id="dw" checked>
+			</div>
+			<div>
+				<label for="behind">Attacking from behind</label>
+				<input type="checkbox" id="behind" checked>
+			</div>
+			<div>
+				<label for="input_crit">Your Crit</label>
+				<input type="text" id="input_crit" value="20">
+			</div>
+			<button class="btn">calculate</button>
+			<div class="table"></div>
+		</div>
+	</div> -->
+	<div class="container container_custom">
+		<div class="row">
+			<div class="col">
+				<div class="content_container">
+					<div class="master_title"><h1>attack table</h1></div>
+					<div class="title_container">
+						<div class="subtitle d-flex flex-row align-items-center justify-content-start">your data</div>
+						<div class="title">
+							<div class="d-flex flex-row align-items-center justify-content-start"><div>01 :</div><div>your stats</div></div>
+						</div>
+					</div>
+					<div class="stats d-flex flex-row align-items-start justify-content-between flex-wrap">
+						
+						<!-- Hit Rating -->
+						<div class="stat stat_hit d-flex flex-column align-items-center justify-content-center">
+							<div class="stat_title_container d-flex flex-row align-items-center justify-content-start">
+								<div><h3>Your Hit Chance</h3></div>
+								<div class="stat_img ml-auto"><img src="images/hit.png" alt=""></div>
+							</div>
+							<div class="stat_num_container">
+								<div id="input_hit" class="stat_num">5</div>
+								<div class="stat_num_controls">
+									<div class="stat_btn stat_inc">+</div>
+									<div class="stat_btn stat_dec">-</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Expertise -->
+						<div class="stat stat_exp d-flex flex-column align-items-center justify-content-center">
+							<div class="stat_title_container d-flex flex-row align-items-center justify-content-start">
+								<div><h3>Your Expertise</h3></div>
+								<div class="stat_img ml-auto"><img src="images/hit.png" alt=""></div>
+							</div>
+							<div class="stat_num_container">
+								<div id="input_exp" class="stat_num">15</div>
+								<div class="stat_num_controls">
+									<div class="stat_btn stat_inc">+</div>
+									<div class="stat_btn stat_dec">-</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Weapon Skill -->
+						<div class="stat stat_hit d-flex flex-column align-items-center justify-content-center">
+							<div class="stat_title_container d-flex flex-row align-items-center justify-content-start">
+								<div><h3>Your Weapon Skill</h3></div>
+								<div class="stat_img ml-auto"><img src="images/weapon.png" alt=""></div>
+							</div>
+							<div class="stat_num_container">
+								<div id="wskill" class="stat_num">350</div>
+								<div class="stat_num_controls">
+									<div class="stat_btn stat_inc">+</div>
+									<div class="stat_btn stat_dec">-</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Crit -->
+						<div class="stat stat_hit d-flex flex-column align-items-center justify-content-center">
+							<div class="stat_title_container d-flex flex-row align-items-center justify-content-start">
+								<div><h3>Your Crit Chance</h3></div>
+								<div class="stat_img ml-auto"><img src="images/crit.png" alt=""></div>
+							</div>
+							<div class="stat_num_container">
+								<div id="input_crit" class="stat_num">25</div>
+								<div class="stat_num_controls">
+									<div class="stat_btn stat_inc">+</div>
+									<div class="stat_btn stat_dec">-</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<div class="options">
+						<div class="option option1 d-flex flex-row align-items-center justify-content-start">
+							<div class="opt">Attacking from Behind</div>
+							<div class="opt_checkbox check_1 checked"><img src="images/check.png" alt=""></div>
+						</div>
+						<div class="option option2 d-flex flex-row align-items-center justify-content-start">
+							<div class="opt">Dual Wield</div>
+							<div class="opt_checkbox check_2 checked"><img src="images/check.png" alt=""></div>
+						</div>
+					</div>
+					<div class="button d-flex flex-column align-items-center justify-content-center"><span>show my table</span></div>
+					<div class="table_container">
+						<div class="title_container">
+							<div class="subtitle d-flex flex-row align-items-center justify-content-start">results</div>
+							<div class="title">
+								<div class="d-flex flex-row align-items-center justify-content-start"><div>02 :</div><div>your attack table</div></div>
+							</div>
+						</div>
+						<div class="results">
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>		
+</div>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="styles/bootstrap-4.1.2/popper.js"></script>
+<script src="styles/bootstrap-4.1.2/bootstrap.min.js"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>

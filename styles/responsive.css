@@ -1,0 +1,233 @@
+@charset "utf-8";
+/* CSS Document */
+
+/******************************
+
+[Table of Contents]
+
+1. 1600px
+2. 1440px
+3. 1280px
+4. 1199px
+5. 1024px
+6. 991px
+7. 959px
+8. 880px
+9. 768px
+10. 767px
+11. 539px
+12. 479px
+13. 400px
+
+******************************/
+
+/************
+1. 1600px
+************/
+
+@media only screen and (max-width: 1600px)
+{
+	
+}
+
+/************
+2. 1440px
+************/
+
+@media only screen and (max-width: 1440px)
+{
+	.stat_num
+	{
+		font-size: 86px;
+	}
+	.master_title h1
+	{
+		font-size: 64px;
+	}
+}
+
+/************
+3. 1380px
+************/
+
+@media only screen and (max-width: 1380px)
+{
+	
+}
+
+/************
+3. 1280px
+************/
+
+@media only screen and (max-width: 1280px)
+{
+	
+}
+
+/************
+4. 1199px
+************/
+
+@media only screen and (max-width: 1199px)
+{
+	
+}
+
+/************
+4. 1100px
+************/
+
+@media only screen and (max-width: 1100px)
+{
+	
+}
+
+/************
+5. 1024px
+************/
+
+@media only screen and (max-width: 1024px)
+{
+	
+}
+
+/************
+6. 991px
+************/
+
+@media only screen and (max-width: 991px)
+{
+	.stat_num
+	{
+		font-size: 72px;
+	}
+	.button
+	{
+		width: 202px;
+		height: 63px;
+	}
+	.button span
+	{
+		font-size: 14px;
+	}
+	.master_title h1
+	{
+		font-size: 56px;
+	}
+}
+
+/************
+7. 959px
+************/
+
+@media only screen and (max-width: 959px)
+{
+	
+}
+
+/************
+8. 880px
+************/
+
+@media only screen and (max-width: 880px)
+{
+	
+}
+
+/************
+9. 768px
+************/
+
+@media only screen and (max-width: 768px)
+{
+	
+}
+
+/************
+10. 767px
+************/
+
+@media only screen and (max-width: 767px)
+{
+	h3
+	{
+		font-size: 18px;
+	}
+	.master_title h1
+	{
+		font-size: 36px;
+	}
+	.stat
+	{
+		width: 100%;
+	}
+	.subtitle
+	{
+		height: 58px;
+		font-size: 16px;
+	}
+	.title 
+	{
+		height: 80px;
+	}
+	.title > div > div:first-of-type
+	{
+		font-family: 'Michroma', sans-serif;
+		font-size: 24px;
+		color: #222;
+		margin-bottom: 9px;
+		margin-right: 10px;
+	}
+	.title > div > div:last-of-type
+	{
+		font-family: 'dwm', sans-serif;
+		font-size: 24px;
+		color: #222;
+		text-transform: uppercase;
+	}
+}
+
+/************
+11. 575px
+************/
+
+@media only screen and (max-width: 575px)
+{
+	
+}
+
+/************
+11. 539px
+************/
+
+@media only screen and (max-width: 539px)
+{
+	
+}
+
+/************
+12. 480px
+************/
+
+@media only screen and (max-width: 480px)
+{
+	
+}
+
+/************
+13. 479px
+************/
+
+@media only screen and (max-width: 479px)
+{
+	
+}
+
+/************
+14. 400px
+************/
+
+@media only screen and (max-width: 400px)
+{
+	
+}
