@@ -80,7 +80,7 @@ $(document).ready(function()
 		}
 
 		miss = getMiss() - hitChance;
-		miss = parseFloat(round(miss));
+		miss = parseFloat(round(miss)) + 1;
 		if(miss < 0)
 		{
 			miss = 0;
@@ -166,6 +166,7 @@ $(document).ready(function()
 		// 	critOverCap = critTemp - total;
 		// 	critTemp = total + '(' + critOverCap + '% crit is over the cap)';
 		// }
+
 		return critTemp;
 	}
 
